@@ -23,7 +23,7 @@ public class Tabuleiro {
         return posicao >= TAMANHO ? casas[TAMANHO] : casas[posicao];
     }
 
-    // Desenha o tabuleiro visualmente na consola
+ 
     public void desenharTabuleiro(List<Jogador> jogadores) {
         System.out.println("\n╔══════════════════════════════════════════════════════════════════════╗");
         System.out.println("║                       MAPA DO TABULEIRO (0 - 40)                     ║");

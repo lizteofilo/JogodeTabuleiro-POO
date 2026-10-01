@@ -29,7 +29,7 @@ public class Jogo {
             String cor;
             boolean corDuplicada;
             
-            // Impede que dois jogadores escolham a mesma cor
+            
             do {
                 corDuplicada = false;
                 System.out.print("Cor/Nome do Jogador " + i + ": ");
@@ -62,7 +62,7 @@ public class Jogo {
             }
         }
 
-        // Regra: O jogo tem de ter pelo menos dois tipos diferentes de jogadores
+        
         if (!temTiposDiferentes && num > 1) {
             System.out.println("\n[Aviso] Todos os jogadores eram do mesmo tipo. A alterar o último jogador para garantir tipos diferentes...");
             Jogador ultimo = jogadores.get(num - 1);
@@ -110,7 +110,7 @@ public class Jogo {
         do {
             jogarNovamente = false;
             
-            // Mostra o tabuleiro atualizado a cada turno/jogada
+            
             mostrarPlacarRodada();
 
             System.out.println("\n--------------------------------------------------");
